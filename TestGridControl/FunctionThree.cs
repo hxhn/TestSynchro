@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace TestGridControl
 {
-    public class FunctionOne
+    public class FunctionThree
     {
 
         public void Call()
