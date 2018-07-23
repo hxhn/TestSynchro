@@ -109,5 +109,11 @@ namespace TestGridControl
         {
             clearDatas();
         }
+
+        private void BtnFunction3_Click(object sender, EventArgs e)
+        {
+            FunctionThree ft = new FunctionThree();
+            ft.Call();
+        }
     }
 }

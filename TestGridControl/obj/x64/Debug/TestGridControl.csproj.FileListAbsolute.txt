@@ -178,3 +178,4 @@ F:\chenyanfeng\技术预言\GithubSynchro\TestGridControl\TestGridControl\bin\x6
 F:\chenyanfeng\技术预言\GithubSynchro\TestGridControl\TestGridControl\obj\x64\Debug\TestGridControl.FrmMain.resources
 F:\chenyanfeng\技术预言\GithubSynchro\TestGridControl\TestGridControl\obj\x64\Debug\TestGridControl.Properties.Resources.resources
 F:\chenyanfeng\技术预言\GithubSynchro\TestGridControl\TestGridControl\obj\x64\Debug\TestGridControl.csproj.GenerateResource.Cache
+F:\chenyanfeng\技术预言\GithubSynchro\TestGridControl\TestGridControl\obj\x64\Debug\TestGridControl.csprojResolveAssemblyReference.cache
