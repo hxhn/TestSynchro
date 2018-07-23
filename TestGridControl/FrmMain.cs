@@ -110,18 +110,6 @@ namespace TestGridControl
             clearDatas();
         }
 
-        private void BtnFunction1_Click(object sender, EventArgs e)
-        {
-            FunctionOne fo = new FunctionOne();
-            fo.Call();
-        }
-
-        private void BtnFunction2_Click(object sender, EventArgs e)
-        {
-            FunctionTwo ft = new FunctionTwo();
-            ft.Call();
-        }
-
         private void BtnFunction3_Click(object sender, EventArgs e)
         {
             FunctionThree ft = new FunctionThree();

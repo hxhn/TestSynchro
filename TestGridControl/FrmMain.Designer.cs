@@ -40,9 +40,6 @@
             this.ComboBoxDataType = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.BtnGetValue = new DevExpress.XtraEditors.SimpleButton();
             this.BtnClearDatas = new DevExpress.XtraEditors.SimpleButton();
-            this.BtnFunction1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.BtnFunction2 = new DevExpress.XtraEditors.SimpleButton();
             this.BtnFunction3 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -159,32 +156,6 @@
             this.BtnClearDatas.Text = "清空数据";
             this.BtnClearDatas.Click += new System.EventHandler(this.BtnClearDatas_Click);
             // 
-            // BtnFunction1
-            // 
-            this.BtnFunction1.Location = new System.Drawing.Point(465, 7);
-            this.BtnFunction1.Name = "BtnFunction1";
-            this.BtnFunction1.Size = new System.Drawing.Size(75, 23);
-            this.BtnFunction1.TabIndex = 3;
-            this.BtnFunction1.Text = "功能1";
-            this.BtnFunction1.Click += new System.EventHandler(this.BtnFunction1_Click);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(0, 0);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 4;
-            this.simpleButton1.Text = "simpleButton1";
-            // 
-            // BtnFunction2
-            // 
-            this.BtnFunction2.Location = new System.Drawing.Point(576, 7);
-            this.BtnFunction2.Name = "BtnFunction2";
-            this.BtnFunction2.Size = new System.Drawing.Size(75, 23);
-            this.BtnFunction2.TabIndex = 5;
-            this.BtnFunction2.Text = "功能2";
-            this.BtnFunction2.Click += new System.EventHandler(this.BtnFunction2_Click);
-            // 
             // BtnFunction3
             // 
             this.BtnFunction3.Location = new System.Drawing.Point(242, 7);
@@ -199,9 +170,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 401);
-            this.Controls.Add(this.BtnFunction2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.BtnFunction1);
             this.Controls.Add(this.BtnFunction3);
             this.Controls.Add(this.BtnClearDatas);
             this.Controls.Add(this.BtnGetValue);
@@ -232,9 +200,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn IsLocalSave;
         private DevExpress.XtraEditors.SimpleButton BtnGetValue;
         private DevExpress.XtraEditors.SimpleButton BtnClearDatas;
-        private DevExpress.XtraEditors.SimpleButton BtnFunction1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton BtnFunction2;
         private DevExpress.XtraEditors.SimpleButton BtnFunction3;
     }
 }
