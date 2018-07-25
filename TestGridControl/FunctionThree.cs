@@ -11,7 +11,7 @@ namespace TestGridControl
 
         public void Call()
         {
-            MessageBox.Show("这是功能1");
+            MessageBox.Show("这是功能3");
         }
     }
 }
