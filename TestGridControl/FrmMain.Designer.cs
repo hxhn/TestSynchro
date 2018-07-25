@@ -40,7 +40,6 @@
             this.ComboBoxDataType = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.BtnGetValue = new DevExpress.XtraEditors.SimpleButton();
             this.BtnClearDatas = new DevExpress.XtraEditors.SimpleButton();
-            this.BtnFunction3 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpinResourceYear)).BeginInit();
@@ -156,21 +155,11 @@
             this.BtnClearDatas.Text = "清空数据";
             this.BtnClearDatas.Click += new System.EventHandler(this.BtnClearDatas_Click);
             // 
-            // BtnFunction3
-            // 
-            this.BtnFunction3.Location = new System.Drawing.Point(242, 7);
-            this.BtnFunction3.Name = "BtnFunction3";
-            this.BtnFunction3.Size = new System.Drawing.Size(75, 23);
-            this.BtnFunction3.TabIndex = 3;
-            this.BtnFunction3.Text = "功能3";
-            this.BtnFunction3.Click += new System.EventHandler(this.BtnFunction3_Click);
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 401);
-            this.Controls.Add(this.BtnFunction3);
             this.Controls.Add(this.BtnClearDatas);
             this.Controls.Add(this.BtnGetValue);
             this.Controls.Add(this.gridControl1);
@@ -200,7 +189,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn IsLocalSave;
         private DevExpress.XtraEditors.SimpleButton BtnGetValue;
         private DevExpress.XtraEditors.SimpleButton BtnClearDatas;
-        private DevExpress.XtraEditors.SimpleButton BtnFunction3;
     }
 }
 
